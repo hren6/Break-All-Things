@@ -7,6 +7,7 @@ Specifically, I want to create a merge conflict.
 
 
 --shell
+
 git config --global diff.tool vscode
 
 git config --global diff.tool.vscode.cm'code --wait --diff "$LOCAL" "$REAMOTE"'
